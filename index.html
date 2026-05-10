@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+
+<div class="main-wrapper">
+  <h2 class="title">Výsledky maderoterapie</h2>
+  
+  <div class="comparison-container" id="container">
+    <!-- Слой ПОСЛЕ -->
+    <div class="side after-side">
+      <img src="after.jpg" alt="Po">
+      <div class="label label-po">Po</div>
+    </div>
+
+    <!-- Слой ДО -->
+    <div class="side before-side" id="beforeSide">
+      <img src="before.jpg" alt="Ped">
+      <div class="label label-ped">Ped</div>
+    </div>
+
+    <!-- Ползунок -->
+    <input type="range" min="0" max="100" value="50" class="slider" id="comparisonSlider">
+
+    <!-- Разделитель -->
+    <div class="divider" id="dividerLine">
+      <div class="handle">
+        <div class="arrow-left"></div>
+        <div class="arrow-right"></div>
+      </div>
+    </div>
+
+    <!-- Золотая плашка снизу -->
+    <div class="promo-overlay">KÚR</div>
+  </div>
+</div>
+
+
+
+ 
+
+<script src="main.js"></script>
+  
+</body>
+</html>
